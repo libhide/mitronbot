@@ -1,3 +1,3 @@
-## Harder, Better, Faster, Stronger Bot
+## Mitrrrronnnnnn
 
-A [Twitter bot](https://twitter.com/hbfsbot) that tweets lyrics from the hit track Harder, Better, Faster, Stronger by Daft Punk.
+A [Twitter bot](https://twitter.com/mitronbot) that quote-retweets reputable news sources when they tweet about Modi.
