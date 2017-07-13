@@ -24,17 +24,17 @@ app.listen(process.env.PORT || 3000);
 
 // genString generated the "Mitron" string
 const genString = () => {
-  let ohs = "";
+  let arrrs = "";
   let ens = "";
 
   // Maximum of 10 occurances
-  let oOcc = Math.ceil(Math.random() * 10);
+  let rOcc = Math.ceil(Math.random() * 10);
   let nOcc = Math.ceil(Math.random() * 10);
 
-  for (let i = 0; i < oOcc; i++) { ohs += "o"; }
+  for (let i = 0; i < rOcc; i++) { arrrs += "r"; }
   for (let i = 0; i < nOcc; i++) { ens += "n"; }
 
-  let s = `Mitr${ohs}${ens}`;
+  let s = `Mit${arrrs}o${ens}`;
 
   // 20% chance of SCREAMING
   return Math.random() > 0.2 ? s : s.toUpperCase();
